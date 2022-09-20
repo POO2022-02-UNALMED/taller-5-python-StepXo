@@ -8,7 +8,7 @@ class Ave:
 
 
     def __init__(self, nombre, edad, habitat, genero, colorPlumas):
-        Animal.__init__(nombre, edad, habitat, genero)
+        super().__init__(nombre, edad, habitat, genero)
         self._colorPlumas = colorPlumas
         Ave.listado.append(self)
 

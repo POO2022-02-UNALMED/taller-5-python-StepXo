@@ -8,7 +8,7 @@ class Mamifero:
     
 
     def __init__(self,nombre,edad,habitat, genero, pelaje, patas):
-        Animal.__init__(nombre, edad, habitat, genero)
+        super().__init__(nombre, edad, habitat, genero)
         self._pelaje = pelaje
         self._patas = patas
         Mamifero.listado.append(self)

@@ -8,7 +8,7 @@ class Anfibio:
 
 
     def __init__(self, nombre, edad,  habitat,  genero, colorPiel, venenoso):
-        Animal.__init__(self, nombre, edad, habitat, genero)
+        Animal.__init__(nombre, edad, habitat, genero)
         self._colorPiel=colorPiel
         self._venenoso=venenoso
         Anfibio.listado.append(self)

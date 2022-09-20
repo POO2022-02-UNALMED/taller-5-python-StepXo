@@ -8,7 +8,7 @@ class Pez:
 
 
     def __init__(self, nombre, edad, habitat, genero, colorEscamas, cantidadAletas) :
-        Animal.__init__(self, nombre, edad, habitat, genero)
+        Animal.__init__(nombre, edad, habitat, genero)
         self._colorEscamas = colorEscamas
         self._cantidadAletas = cantidadAletas
         Pez.listado.append(self)

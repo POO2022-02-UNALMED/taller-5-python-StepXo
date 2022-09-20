@@ -1,6 +1,6 @@
 from zooAnimales.animal import Animal
 
-class Pez:
+class Pez(Animal):
 
     listado = []
     salmones = 0
